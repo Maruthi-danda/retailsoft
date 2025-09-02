@@ -27,8 +27,6 @@ public class ProcuctController {
 	ProductService productService;
 	
 	
-	
-	
 	@PostMapping("/saveProducts")
 	public ResponseEntity<List<TIdProductBean>> saveProducts(@RequestBody List<TIdProductBean> saveAllProducts){
 		List<TIdProductBean> productList =  null;
